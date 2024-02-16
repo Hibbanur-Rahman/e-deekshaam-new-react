@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/e-deekshaam-new-react/static/css/main.a8ff8dec.css",
+    "main.css": "/e-deekshaam-new-react/static/css/main.88417b18.css",
     "main.js": "/e-deekshaam-new-react/static/js/main.6d067d90.js",
     "static/media/bg-banner-01.png": "/e-deekshaam-new-react/static/media/bg-banner-01.045cff2668ecf6414bf5.png",
     "static/media/Frame2.jpg": "/e-deekshaam-new-react/static/media/Frame2.cd259b7a0253fd476a8d.jpg",
@@ -190,11 +190,11 @@
     "static/media/ellipse-1.svg": "/e-deekshaam-new-react/static/media/ellipse-1.52953ac63f780fbbb7a508369ac94f62.svg",
     "static/media/ellipse-2.svg": "/e-deekshaam-new-react/static/media/ellipse-2.7fff44abc24dd8114ddf1d571aa79864.svg",
     "static/media/ellipse-3.svg": "/e-deekshaam-new-react/static/media/ellipse-3.23ac211eb01e22f45bea194b6430fef3.svg",
-    "main.a8ff8dec.css.map": "/e-deekshaam-new-react/static/css/main.a8ff8dec.css.map",
+    "main.88417b18.css.map": "/e-deekshaam-new-react/static/css/main.88417b18.css.map",
     "main.6d067d90.js.map": "/e-deekshaam-new-react/static/js/main.6d067d90.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8ff8dec.css",
+    "static/css/main.88417b18.css",
     "static/js/main.6d067d90.js"
   ]
 }
