@@ -1,0 +1,144 @@
+.carousel {
+  margin-top: -50px;
+  width: 100%;
+}
+
+.img-Carousel {
+  width: 100%;
+}
+
+.home-carousel .slick-prev {
+  left: 14px;
+  height: 50px;
+  width: 40px;
+  position: relative;
+  z-index: 2;
+  top: 201px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #14539a !important;
+  font-size: 30px;
+}
+
+.home-carousel .slick-next {
+  right: 20px;
+  height: 50px;
+  width: 40px;
+  top: 201px;
+  background: "black";
+}
+
+.slick-slide img {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 2560px) {
+  .home-carousel .slick-next {
+    right: 15px !important;
+    top: 294px !important;
+  }
+
+  .home-carousel .slick-prev {
+    left: 15px !important;
+    top: 294px !important;
+  }
+}
+
+@media(max-width: 1920px) {
+  .home-carousel .slick-next {
+    right: 15px !important;
+    top: 200px !important;
+  }
+
+  .home-carousel .slick-prev {
+    left: 15px !important;
+    top: 200px !important;
+  }
+}
+
+
+@media (max-width: 1440px) {
+  .home-carousel .slick-next {
+    right: 10px !important;
+    top: 186px !important;
+  }
+
+  .home-carousel .slick-prev {
+    left: 10px !important;
+    top: 186px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .carousel {
+    width: 100%;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 20px;
+  }
+
+  .home-carousel .slick-next {
+    right: 0px !important;
+    top: 146px !important;
+  }
+
+  .home-carousel .slick-prev {
+    left: 0px !important;
+    top: 146px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    width: 100%;
+  }
+
+  .slick-slide img {
+    height: auto;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 20px;
+  }
+
+  .home-carousel .slick-next {
+    right: -6px !important;
+    top: 121px !important;
+  }
+
+  .home-carousel .slick-prev {
+    left: -6px !important;
+    top: 121px !important;
+  }
+}
+
+/* @media only screen and(max-width: 428px) {
+  .carousel {
+    margin-top: 0 !important;
+  }
+} */
+
+@media (max-width: 480px) {
+  .carousel {
+    width: 100%;
+    margin-top: 0 !important;
+  }
+
+  .slick-slide img {
+    height: auto;
+  }
+}
