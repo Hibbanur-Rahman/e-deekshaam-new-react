@@ -1,8 +1,8 @@
 {
-  "homepage":"https://hibbanur-rahman.github.io/e-deekshaam-new-react/",
   "name": "e-deekshaam-new",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hibbanur-rahman.github.io/e-deekshaam-new-react/",
   "dependencies": {
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.15.10",
@@ -30,11 +30,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build", 
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts start", 
+    "build": "react-scripts build", 
     "test": "react-scripts test",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
