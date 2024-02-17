@@ -85,14 +85,14 @@ export const Home3 = () => {
                           <span className="d-flex">
                             <CountUp
                               start={0}
-                              end={20}
+                              end={5}
                               delay={1}
                               duration={4}
                             />
                             +
                           </span>
                         </h4>
-                        <p>Institutions</p>
+                        <p>states</p>
                       </div>
                     </div>
                   </div>
@@ -108,10 +108,10 @@ export const Home3 = () => {
                       <div className="course-content-three">
                         <h4 className="text-yellow">
                           <span className="d-flex">
-                            <CountUp start={0} end={8} delay={1} />+
+                            <CountUp start={0} end={30} delay={1} />+
                           </span>
                         </h4>
-                        <p>NGOs</p>
+                        <p>Institutions</p>
                       </div>
                     </div>
                   </div>
@@ -127,11 +127,11 @@ export const Home3 = () => {
                       <div className="course-content-three">
                         <h4 className="text-info">
                           <span className="d-flex">
-                            <CountUp start={0} end={10} delay={1} duration={5} />
+                            <CountUp start={0} end={50} delay={1} duration={5} />
                             +
                           </span>
                         </h4>
-                        <p>Prehab Professionals</p>
+                        <p>Rehab Professionals</p>
                       </div>
                     </div>
                   </div>
@@ -147,7 +147,7 @@ export const Home3 = () => {
                       <div className="course-content-three course-count ms-0">
                         <h4 className="text-green">
                           <span className="d-flex">
-                            <CountUp start={0} end={200} delay={1} duration={2} />
+                            <CountUp start={0} end={40} delay={1} duration={2} />
                             +
                           </span>
                         </h4>

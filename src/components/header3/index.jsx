@@ -186,7 +186,7 @@ export const Header3 = () => {
             </Grid>
           </Box>
         </div>
-        <div className="header-fixed-three header-fixed">
+        <div className="header-fixed-three header-fixed z-2 position-relative">
           <nav
             className={`navbar navbar-expand-lg header-nav-three ${navbar ? "fixed z-3 top-0 add-header-bg" : "bg-transparent"
               }`}
