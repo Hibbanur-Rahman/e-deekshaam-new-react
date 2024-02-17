@@ -8,6 +8,11 @@ import sliderImage1 from './images/Banner/Frame1.jpg'
 import sliderImage2 from './images/Banner/Frame2.jpg'
 import sliderImage3 from './images/Banner/Frame3.jpg'
 import sliderImage4 from './images/Banner/Frame4.jpg'
+import sliderImage5 from './images/Banner/slider-1.png';
+import sliderImage6 from './images/Banner/slider-2.png'
+import sliderImage7 from './images/Banner/slider-3.png'
+import sliderImage8 from './images/Banner/slider-4.png'
+import sliderImage9 from './images/Banner/slider-5.png'
 const Carousel = () => {
   const settings = {
     dots: true,
@@ -50,13 +55,7 @@ const Carousel = () => {
     <div className="carousel home-carousel">
       <Slider {...settings}>
         <div className="img-Carousel">
-          {/* <img
-            crossOrigin="anonymous"
-            src={
-              "https://api.edeekshaam.in/v1/media/meityp/single/image/2023-07-04T07-32-03-200Z.compressed.png"
-            }
-            alt="Slide 1"
-          /> */}
+          
           <img
             crossOrigin="anonymous"
             src={
@@ -65,13 +64,7 @@ const Carousel = () => {
           />
         </div>
         <div className="img-Carousel">
-          {/* <img
-            crossOrigin="anonymous"
-            src={
-              "https://api.edeekshaam.in/v1/media/meityp/single/image/2023-07-04T08-00-48-270Z.compressed.png"
-            }
-            alt="Slide 2"
-          /> */}
+         
           <img
             crossOrigin="anonymous"
             src={
@@ -80,13 +73,7 @@ const Carousel = () => {
           />
         </div>
         <div className="img-Carousel">
-          {/* <img
-            crossOrigin="anonymous"
-            src={
-              "https://api.edeekshaam.in/v1/media/meityp/single/image/2023-07-04T07-47-07-624Z.compressed.png"
-            }
-            alt="Slide 3"
-          /> */}
+          
           <img
             crossOrigin="anonymous"
             src={
@@ -95,13 +82,7 @@ const Carousel = () => {
           />
         </div>
         <div className="img-Carousel">
-          {/* <img
-            crossOrigin="anonymous"
-            src={
-              "https://api.edeekshaam.in/v1/media/meityp/single/image/2023-07-04T07-47-41-143Z.compressed.png"
-            }
-            alt="Slide 4"
-          /> */}
+          
           <img
             crossOrigin="anonymous"
             src={
@@ -113,7 +94,7 @@ const Carousel = () => {
           <img
             crossOrigin="anonymous"
             src={
-              "https://api.edeekshaam.in/v1/media/meityp/single/image/2023-07-04T07-49-28-753Z.compressed.png"
+              sliderImage5
             }
             alt="Slide 5"
           />
@@ -123,7 +104,7 @@ const Carousel = () => {
           <img
             crossOrigin="anonymous"
             src={
-              "https://api.edeekshaam.in/v1/media/meityp/single/image/2023-07-04T07-32-03-200Z.compressed.png"
+              sliderImage6
             }
             alt="Slide 6"
           />
@@ -133,7 +114,7 @@ const Carousel = () => {
         <img
             crossOrigin="anonymous"
             src={
-              "https://api.edeekshaam.in/v1/media/meityp/single/image/2023-07-04T08-00-48-270Z.compressed.png"
+              sliderImage7
             }
             alt="Slide 7"
           /> 
@@ -143,7 +124,7 @@ const Carousel = () => {
         <img
             crossOrigin="anonymous"
             src={
-              "https://api.edeekshaam.in/v1/media/meityp/single/image/2023-07-04T07-47-07-624Z.compressed.png"
+              sliderImage8
             }
             alt="Slide 8"
           />
@@ -153,7 +134,7 @@ const Carousel = () => {
         <img
             crossOrigin="anonymous"
             src={
-              "https://api.edeekshaam.in/v1/media/meityp/single/image/2023-07-04T07-47-41-143Z.compressed.png"
+              sliderImage9
             }
             alt="Slide 9"
           /> 
