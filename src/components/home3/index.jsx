@@ -4,6 +4,10 @@ import { Footer3 } from "../footer3";
 import { Header3 } from "../header3";
 import Companies from "../home/slider/companies";
 import Carousel from '../carousel/Carousel';
+import { Quote } from "../imagepath";
+import { mission } from "../imagepath";
+import { vision } from "../imagepath";
+import "./home.css";
 import {
   Award01,
   AwardSvg,
@@ -13,10 +17,6 @@ import {
   Blog23,
   Blog24,
   Career,
-  Career01,
-  Career02,
-  Career03,
-  Career04,
   Certification,
   CheckRound1,
   CheckRound2,
@@ -111,7 +111,7 @@ export const Home3 = () => {
     <>
       <Header3 />
       {/* Home Banner */}
-    <Carousel/>
+      <Carousel />
       {/* Home Banner */}
       {/* Online Courses */}
       <section className="section  home-three-course mt-5">
@@ -230,94 +230,52 @@ export const Home3 = () => {
 
             <div className="col-xl-6 col-lg-6 col-md-12" data-aos="fade-left">
               <div className="home-three-head" data-aos="fade-up">
-                <h2>Master the skills to drive your career</h2>
+                <h2>About ε-Deekshaam</h2>
+              </div>
+              <h5 className="text-blue">Inclusive Education is our first priority</h5>
+
+              <div className="py-4">
+                <img className="quote img-fluid home3Slide" alt="" src={Quote} />
               </div>
               <div className="home-three-content" data-aos="fade-up">
                 <p>
-                  Get certified, master modern tech skills, and level up your
-                  career whether you’re starting out or a seasoned pro. 95% of
-                  eLearning learners report our hands-on content directly helped
-                  their careers.
+                  The highest education is that which does not merely gives information but brings our life in harmony with all existence.
                 </p>
+                <strong>
+                  ~ Rabindranath Tagore
+                </strong>
               </div>
-              <div className="skils-group">
+              <div className="career-group aos" data-aos="fade-up">
                 <div className="row">
-                  <div
-                    className="col-lg-6 col-xs-12 col-sm-6"
-                    data-aos="fade-down"
-                  >
-                    <div className="skils-icon-item">
-                      <div className="skils-icon">
-                        <img
-                          className="img-fluid"
-                          src={Career01}
-                          alt="certified"
-                        />
-                      </div>
-                      <div className="skils-content">
-                        <p className="mb-0">
-                          Get certified with 100+ certification courses
+                  <div className="col-lg-6 col-md-6 d-flex">
+                    <div className="certified-group blur-border d-flex">
+                      <div className="get-certified">
+                        <div className="mission-vision mb-3">
+                          <img className="" src={mission} alt="" />
+                        </div>
+                        <h5>Our Mission</h5>
+                        <p className="m-0">
+                          Our mission is to provide an adaptive assistive system to help children with intellectual disabilities to learn and succeed. We aim to offer a supportive and inclusive environment where children learn meaningfully, develop essential skills, and gain confidence in their abilities.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="col-lg-6 col-xs-12 col-sm-6"
-                    data-aos="fade-up"
-                  >
-                    <div className="skils-icon-item">
-                      <div className="skils-icon">
-                        <img
-                          className="img-fluid"
-                          src={Career02}
-                          alt="Build skills"
-                        />
-                      </div>
-                      <div className="skils-content">
-                        <p className="mb-0">
-                          Build skills your way, from labs to courses
+                  <div className="col-lg-6 col-md-6 d-flex">
+                    <div className="certified-group blur-border d-flex">
+                      <div className="get-certified">
+                        <div className="mission-vision mb-3">
+                          <img className="" src={vision} alt="" />
+                        </div>
+                        <h5>Our Vision</h5>
+                        <p className="m-0">
+                          Our Vision is that every child with an intellectual disability thrives and accomplishes their goals. Our adaptive assistive system will help children with intellectual disabilities overcome hurdles and reach their full potential.
                         </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-lg-6 col-xs-12 col-sm-6"
-                    data-aos="fade-right"
-                  >
-                    <div className="skils-icon-item">
-                      <div className="skils-icon">
-                        <img
-                          className="img-fluid"
-                          src={Career03}
-                          alt="Stay Motivated"
-                        />
-                      </div>
-                      <div className="skils-content">
-                        <p className="mb-0">
-                          Stay motivated with engaging instructors
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="col-lg-6 col-xs-12 col-sm-6"
-                    data-aos="fade-left"
-                  >
-                    <div className="skils-icon-item">
-                      <div className="skils-icon">
-                        <img
-                          className="img-fluid"
-                          src={Career04}
-                          alt="latest cloud"
-                        />
-                      </div>
-                      <div className="skils-content">
-                        <p className="mb-0">Keep up with the latest in cloud</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
         </div>
