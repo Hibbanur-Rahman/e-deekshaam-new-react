@@ -72,7 +72,7 @@ export const Footer3 = () => {
                   <h6 className="footer-three-title">Quick Links</h6>
                   <ul>
                     <li>
-                      <Link to="/instructor-profile">Home</Link>
+                      <Link to="/">Home</Link>
                     </li>
                     <li className="has-submenu">
                       <Link onClick={toggleAboutSubMenu} className="text-white">About <i
@@ -81,10 +81,10 @@ export const Footer3 = () => {
                       ></i></Link>
                       <ul style={isAboutSubMenuOpen ? { ...styles.submenu, ...styles.aboutSubmenuVisible } : styles.submenu} className="ms-3">
                         <ul style={isAboutSubMenuOpen ? { ...styles.submenu, ...styles.aboutSubmenuVisible } : styles.submenu}>
-                          <li style={{ listStyleType: 'none' }}><Link href="/Edeeksham" style={styles.submenuLinks}>e-Deekshaam</Link></li>
-                          <li style={{ listStyleType: 'none' }}><Link href="/Manuu" style={styles.submenuLinks}>MANUU</Link></li>
-                          <li style={{ listStyleType: 'none' }}><Link href="#" style={styles.submenuLinks}>Our team</Link></li>
-                          <li style={{ listStyleType: 'none' }}><Link href="#" style={styles.submenuLinks}>Experts</Link></li>
+                          <li style={{ listStyleType: 'none' }}><Link href="/about-edeeksham" style={styles.submenuLinks}>e-Deekshaam</Link></li>
+                          <li style={{ listStyleType: 'none' }}><Link href="/about-manuu" style={styles.submenuLinks}>MANUU</Link></li>
+                          <li style={{ listStyleType: 'none' }}><Link href="/" style={styles.submenuLinks}>Our team</Link></li>
+                          <li style={{ listStyleType: 'none' }}><Link href="/" style={styles.submenuLinks}>Experts</Link></li>
                         </ul>
                       </ul>
                     </li>
@@ -102,10 +102,10 @@ export const Footer3 = () => {
                     </li>
 
                     <li>
-                      <Link to="/register">Collaboration</Link>
+                      <Link to="/collaboration">Collaboration</Link>
                     </li>
                     <li>
-                      <Link to="/instructor-list">Important links</Link>
+                      <Link to="/important-links">Important links</Link>
                     </li>
                     <li>
                       <Link to="/contact-us">Contact Us</Link>
