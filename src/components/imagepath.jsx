@@ -482,3 +482,9 @@ export { default as Blog18 } from "../assets/img/blog/blog-18.jpg";
 export { default as Blog19 } from "../assets/img/blog/blog-19.jpg";
 
 export { default as BlogBanner } from "../assets/img/blog-banner.jpg"
+
+
+// our images
+
+export { default as mission } from "../assets/img/our-images/mission.svg"
+export { default as vision } from "../assets/img/our-images/vision.svg"
