@@ -7,6 +7,7 @@ import ImportantLinks from "./components/importantLinks/ImportantLinks";
 import Manuu from "./components/about/manuu/Manuu"
 import Edeekshaam from "./components/about/edeekshaam/Edeekshaam";
 
+import OtherEvents from "./components/otherEvents/index";
 import Workshop from "./components/workshop/index";
 import { Header3 } from "./components/header3/index";
 import { Footer3 } from "./components/footer3/index";
@@ -24,6 +25,8 @@ const Approuter = () => {
         <Route path="/about-manuu" element={<Manuu/>} />
 
         <Route path='/workshop' element={<Workshop/>}/>
+        <Route path='/other-events' element={<OtherEvents/>}/>
+
       </Routes>
       <Footer3/>
     </BrowserRouter>
