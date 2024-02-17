@@ -1,5 +1,4 @@
 import React from "react";
-import { Header3 } from "../header3";
 import location from "../../assets/img/icon/location.svg"
 import email from "../../assets/img/icon/email.svg"
 import telephone from "../../assets/img/icon/telephone.svg"
@@ -8,7 +7,6 @@ const ContactUs = () => {
   return (
     <>
       <div className="main-wrapper">
-        <Header3 />
         <div className="page-banner">
           <div className="container">
             <div className="row">
