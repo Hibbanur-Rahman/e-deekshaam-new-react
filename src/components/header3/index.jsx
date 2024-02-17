@@ -282,7 +282,10 @@ export const Header3 = () => {
                     <Link to="/contact-us">Contact us </Link>
                   </li>
                   <li className="login-link">
-                    <Link to="/login">Login / Signup</Link>
+                    <Link to="https://dashboard.edeekshaam.in/login">Login </Link>
+                  </li>
+                  <li className="login-link">
+                    <Link to="https://dashboard.edeekshaam.in/register">Signup</Link>
                   </li>
                 </ul>
               </div>
