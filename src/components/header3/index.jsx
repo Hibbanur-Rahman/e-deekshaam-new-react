@@ -4,6 +4,12 @@ import Typography from "@mui/material/Typography";
 import { Grid, Hidden } from "@mui/material";
 import Box from "@mui/material/Box";
 import "./index.css";
+import edeekshaamLogo from './headerImage/e-deekshamFull.png';
+import manuuFullLogo from './headerImage/manuu-full.png';
+import manuuPlainLogo from './headerImage/manuu-plain.png';
+import meityFullLogo from './headerImage/meity.png';
+import meityPlain from './headerImage/ashoka-chakra.png';
+
 
 export const Header3 = () => {
   // change header background on scroll
@@ -74,7 +80,7 @@ export const Header3 = () => {
                   >
                     <img
                       crossOrigin="anonymous"
-                      src="https://api.edeekshaam.in/v1/media/meityp/single/image/2023-07-04T05-20-45-378Z.compressed.png"
+                      src={meityFullLogo}
                       className="ministry-logo-1"
                       alt="Banner 1"
                       style={{ width: "100%", height: "auto" }}
@@ -91,7 +97,7 @@ export const Header3 = () => {
                   >
                     <img
                       crossOrigin="anonymous"
-                      src="https://i.ibb.co/v1svfNL/ashoka-chakra.png"
+                      src={meityPlain}
                       alt="ashoka-chakra"
                       className="ministry-logo-2"
                       style={{ width: "23%", height: "auto" }}
@@ -104,7 +110,7 @@ export const Header3 = () => {
                 <Link to="/" rel="noopener noreferrer">
                   <img
                     crossOrigin="anonymous"
-                    src="https://api.edeekshaam.in/v1/media/meityp/single/image/2023-06-23T10-42-19-812Z.compressed.png"
+                    src={edeekshaamLogo}
                     alt="Banner 2"
                     style={{
                       width: "100%",
@@ -151,7 +157,7 @@ export const Header3 = () => {
                   >
                     <img
                       crossOrigin="anonymous"
-                      src="https://api.edeekshaam.in/v1/media/meityp/single/image/2023-07-05T05-16-46-251Z.compressed.png"
+                      src={manuuFullLogo}
                       className="manuu-logo-1"
                       alt="Banner 4"
                       style={{ width: "70%", height: "auto" }}
@@ -169,7 +175,7 @@ export const Header3 = () => {
                   >
                     <img
                       crossOrigin="anonymous"
-                      src="https://i.ibb.co/jL2q6sq/manuu-plain.png"
+                      src={manuuPlainLogo}
                       alt="manuu-plain"
                       className="manuu-logo-2"
                       style={{ width: "28%", height: "auto", marginTop: "-8px" }}
