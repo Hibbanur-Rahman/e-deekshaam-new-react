@@ -273,7 +273,7 @@ export const Header = () => {
                   </li>
 
                   <li>
-                    <Link to="/">Collaboration </Link>
+                    <Link to="/collaboration">Collaboration </Link>
                   </li>
                   <li>
                     <Link to="/important-links">Important links </Link>

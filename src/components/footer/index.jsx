@@ -83,8 +83,8 @@ export const Footer = () => {
                         <ul style={isAboutSubMenuOpen ? { ...styles.submenu, ...styles.aboutSubmenuVisible } : styles.submenu}>
                           <li style={{ listStyleType: 'none' }}><Link to="/about-edeeksham" style={styles.submenuLinks}>e-Deekshaam</Link></li>
                           <li style={{ listStyleType: 'none' }}><Link to="/about-manuu" style={styles.submenuLinks}>MANUU</Link></li>
-                          <li style={{ listStyleType: 'none' }}><Link to="/" style={styles.submenuLinks}>Our team</Link></li>
-                          <li style={{ listStyleType: 'none' }}><Link to="/" style={styles.submenuLinks}>Experts</Link></li>
+                          {/* <li style={{ listStyleType: 'none' }}><Link to="/" style={styles.submenuLinks}>Our team</Link></li>
+                          <li style={{ listStyleType: 'none' }}><Link to="/" style={styles.submenuLinks}>Experts</Link></li> */}
                         </ul>
                       </ul>
                     </li>
@@ -96,7 +96,7 @@ export const Footer = () => {
                       ></i></Link>
                       <ul style={isEventSubMenuOpen ? { ...styles.submenu, ...styles.eventSubmenuVisible } : styles.submenu} className="ms-3">
                         <li style={{ listStyleType: 'none' }}><Link to="/Workshop" style={styles.submenuLinks}>Workshops</Link></li>
-                        <li style={{ listStyleType: 'none' }}><Link to="#" style={styles.submenuLinks}>Training</Link></li>
+                        {/* <li style={{ listStyleType: 'none' }}><Link to="#" style={styles.submenuLinks}>Training</Link></li> */}
                         <li style={{ listStyleType: 'none' }}><Link to="/other-events" style={styles.submenuLinks}>Other events</Link></li>
                       </ul>
                     </li>
