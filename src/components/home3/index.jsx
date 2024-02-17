@@ -170,7 +170,7 @@ export const Home3 = () => {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-xl-6 col-lg-6 col-md-12" data-aos="fade-right">
+            <div className="col-xl-6 col-lg-6 col-md-12 d-flex align-items-center" data-aos="fade-right">
               <div className="master-three-images">
                 <div className="master-three-left">
                   <img
@@ -310,7 +310,7 @@ export const Home3 = () => {
               </div>
 
               <div
-                className="col-xl-6 col-lg-6 col-md-6 col-12"
+                className="col-xl-6 col-lg-6 col-md-6 col-12 d-flex justify-content-center"
                 data-aos="fade-right"
               >
                 <div className="award-three-images-two">
