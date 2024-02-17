@@ -130,14 +130,14 @@ export const Home3 = () => {
                           <span className="d-flex">
                             <CountUp
                               start={0}
-                              end={10}
+                              end={20}
                               delay={1}
                               duration={4}
                             />
-                            K
+                            +
                           </span>
                         </h4>
-                        <p>Online Courses</p>
+                        <p>Institutions</p>
                       </div>
                     </div>
                   </div>
@@ -153,10 +153,10 @@ export const Home3 = () => {
                       <div className="course-content-three">
                         <h4 className="text-yellow">
                           <span className="d-flex">
-                            <CountUp start={0} end={200} delay={1} />+
+                            <CountUp start={0} end={8} delay={1} />+
                           </span>
                         </h4>
-                        <p>Expert Tutors</p>
+                        <p>NGOs</p>
                       </div>
                     </div>
                   </div>
@@ -172,11 +172,11 @@ export const Home3 = () => {
                       <div className="course-content-three">
                         <h4 className="text-info">
                           <span className="d-flex">
-                            <CountUp start={0} end={6} delay={1} duration={5} />
-                            K+
+                            <CountUp start={0} end={10} delay={1} duration={5} />
+                            +
                           </span>
                         </h4>
-                        <p>Ceritified Courses</p>
+                        <p>Prehab Professionals</p>
                       </div>
                     </div>
                   </div>
@@ -192,11 +192,11 @@ export const Home3 = () => {
                       <div className="course-content-three course-count ms-0">
                         <h4 className="text-green">
                           <span className="d-flex">
-                            <CountUp start={0} end={6} delay={1} duration={2} />
-                            K +
+                            <CountUp start={0} end={200} delay={1} duration={2} />
+                            +
                           </span>
                         </h4>
-                        <p>Online Students</p>
+                        <p>Students</p>
                       </div>
                     </div>
                   </div>
