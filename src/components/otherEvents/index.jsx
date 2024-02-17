@@ -1,3 +1,4 @@
+import { CarouselOtherEventsFirst, CarouselOtherEventsSecond, CarouselOtherEventsThird } from './slider/CarouselOtherEvents';
 import './style.css'
 
 const OtherEvents = () => {
@@ -13,9 +14,11 @@ const OtherEvents = () => {
                 </div>
             </div>
             <div className="container mb-3">
-                <div className="workshop">
-
-                    <div className="content-container px-3">
+                <div className="row">
+                    <div className='col-lg-6'>
+                        <CarouselOtherEventsFirst />
+                    </div>
+                    <div className="content-container px-3 col-lg-6">
                         <p className="workshop-date">22 April 2022</p>
                         <h1 className="workshop-heading">
                             Research Perspective to solve the problems of the society
@@ -25,8 +28,8 @@ const OtherEvents = () => {
                         </p>
                     </div>
                 </div>
-                <div className="workshop">
-                    <div className="content-container px-3">
+                <div className="row">
+                    <div className="content-container px-3 order-2 order-lg-1 col-lg-6">
                         <p className="workshop-date">11 November 2022</p>
                         <h1 className="workshop-heading">
                             Plantation Ceremony
@@ -35,11 +38,16 @@ const OtherEvents = () => {
                             Planting coconut saplings is considered a good beginning to any event, the expert members did the honours of this event
                         </p>
                     </div>
+                    <div className='col-lg-6 order-1 order-lg-2'>
+                        <CarouselOtherEventsSecond />
+                    </div>
 
                 </div>
-                <div className="workshop">
-
-                    <div className="content-container px-3">
+                <div className="row">
+                    <div className='col-lg-6'>
+                        <CarouselOtherEventsThird />
+                    </div>
+                    <div className="content-container px-3 col-lg-6">
                         <p className="workshop-date">11 November 2022</p>
                         <h1 className="workshop-heading">
                             Project Review and Steering Group-PRSG meeting

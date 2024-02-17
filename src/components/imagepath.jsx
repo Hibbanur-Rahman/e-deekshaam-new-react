@@ -498,8 +498,17 @@ export { default as dsje } from "../assets/img/our-images/msje.jpg"
 export { default as meity } from "../assets/img/our-images/meity.png"
 export { default as tnt } from "../assets/img/our-images/tnt.jpg"
 export { default as rci } from "../assets/img/our-images/rci.png"
-export { default as mhfw} from "../assets/img/our-images/mhfw.jpg"
-export { default as ministry} from "../assets/img/our-images/ministry.svg"
+export { default as mhfw } from "../assets/img/our-images/mhfw.jpg"
+export { default as ministry } from "../assets/img/our-images/ministry.svg"
+
+
+export { default as slider1 } from "../assets/img/our-images/other_slider/slider1.jpg"
+export { default as slider2 } from "../assets/img/our-images/other_slider/slider2.jpg"
+export { default as slider3 } from "../assets/img/our-images/other_slider/slider3.jpg"
+export { default as slider4 } from "../assets/img/our-images/other_slider/slider4.jpg"
+export { default as slider5 } from "../assets/img/our-images/other_slider/slider5.jpg"
+export { default as slider6 } from "../assets/img/our-images/other_slider/slider6.jpeg"
+
 
 
 
