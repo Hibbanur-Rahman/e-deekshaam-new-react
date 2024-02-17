@@ -1,9 +1,13 @@
 import React from "react";
+import { Header3 } from "../header3";
 
 const ContactUs=()=>{
     return (
         <>
-        <h1>ContactUs</h1>
+        <div className="main-wrapper">
+            <Header3/>
+            <h1>hello</h1>
+        </div>
         </>
     )
 }
