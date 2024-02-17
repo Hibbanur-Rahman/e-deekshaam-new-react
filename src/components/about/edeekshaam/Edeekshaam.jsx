@@ -4,6 +4,7 @@ import { mission } from "../../imagepath";
 import { vision } from "../../imagepath";
 
 import features from "../../../assets/img/about/features.jpg";
+import { TopCategories2 } from "./slider/Carousel";
 
 const Edeekshaam = () => {
   return (
@@ -36,7 +37,9 @@ const Edeekshaam = () => {
             provided.
           </p>
         </div>
-        <div><img src="" alt="" /></div>
+        <div>
+          <TopCategories2/>
+        </div>
         <div className="d-flex justify-content-center">
           <div>
             <div className="py-4">
