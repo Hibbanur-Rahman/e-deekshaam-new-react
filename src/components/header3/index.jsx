@@ -294,13 +294,13 @@ export const Header3 = () => {
                 <li className="nav-item">
                   <Link
                     className="nav-link login-three-head button"
-                    to="/login"
+                    to="https://dashboard.edeekshaam.in/login"
                   >
                     <span>Login</span>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link signin-three-head" to="/register">
+                  <Link className="nav-link signin-three-head" to="https://dashboard.edeekshaam.in/register">
                     Register
                   </Link>
                 </li>

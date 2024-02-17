@@ -105,7 +105,7 @@ export const Footer3 = () => {
                       <Link to="/register">Collaboration</Link>
                     </li>
                     <li>
-                      <Link to="/instructor-list">Important-Links</Link>
+                      <Link to="/instructor-list">Important links</Link>
                     </li>
                     <li>
                       <Link to="/deposit-instructor-dashboard">Contact Us</Link>
@@ -160,9 +160,7 @@ export const Footer3 = () => {
                     <li>
                       <Link to="/#">Privacy Policy</Link>
                     </li>
-                    <li>
-                      <Link to="/#">Contact Us</Link>
-                    </li>
+                   
                   </ul>
                 </div>
                 <div className="copyright-text-three">
