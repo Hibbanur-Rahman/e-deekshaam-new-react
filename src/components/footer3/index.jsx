@@ -145,7 +145,7 @@ export const Footer3 = () => {
       {/* Footer Top */}
 
       {/* Footer Bottom */}
-      <div className="footer-three-bottom" data-aos="fade-up">
+      <div className="footer-three-bottom">
         <div className="container">
           {/* Copyright */}
           <div className="copyright-three">
@@ -155,19 +155,19 @@ export const Footer3 = () => {
                 <div className="privacy-policy-three">
                   <ul>
                     <li>
-                      <Link to="/term-condition">Terms & Condition</Link>
+                      <Link to="/#">Terms & Condition</Link>
                     </li>
                     <li>
-                      <Link to="/privacy-policy">Privacy Policy</Link>
+                      <Link to="/#">Privacy Policy</Link>
                     </li>
                     <li>
-                      <Link to="/support">Contact Us</Link>
+                      <Link to="/#">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
                 <div className="copyright-text-three">
                   <p className="mb-0">
-                    &copy; 2023 DreamsLMS. All rights reserved.
+                    &copy; 2024 ε-Deekshaam. All rights reserved.
                   </p>
                 </div>
               </div>

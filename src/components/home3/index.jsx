@@ -237,7 +237,7 @@ export const Home3 = () => {
       </section>
       {/* Master Skills Career */}
 
-     
+
 
 
 
@@ -259,7 +259,7 @@ export const Home3 = () => {
                     <div className="award-list-content">
                       <h5 className="text-white">
                         How does it work?
-                        </h5>
+                      </h5>
                       <h2>Our Process is easy to understand</h2>
                       <p>
                         Each intellectually disabled child&apos;s needs and abilities are assessed. This assessment determines learning goals, preferences, and challenges. The teacher evaluates. Based on the assessment, E-Deekshaam customizes learning plans for each child. The plan details the child-specific learning objectives, content, and activities.
@@ -332,8 +332,8 @@ export const Home3 = () => {
         </div>
       </section>
 
- {/* Favorite Course */}
- <section className="home-three-favourite mt-5 pt-5 pb-5">
+      {/* Favorite Course */}
+      <section className="home-three-favourite mt-5 pt-5 pb-5">
         <div className="container">
           <div className="row">
             <div className="container">
@@ -345,7 +345,7 @@ export const Home3 = () => {
                   <div className="col-lg-8 col-sm-12">
                     <h2>ε-Deekshaam Stats</h2>
                   </div>
-                 
+
                 </div>
               </div>
               <TopCategories2 />

@@ -204,7 +204,7 @@ export const Header3 = () => {
               <div className="main-menu-wrapper">
                 <div className="menu-header">
                   <Link to="/" className="menu-logo">
-                    <img src="https://api.edeekshaam.in/v1/media/meityp/single/image/2023-07-04T05-20-45-378Z.compressed.png"
+                    <img src={edeekshaamLogo}
                       className="img-fluid" alt="Logo" />
                   </Link>
                   <Link
@@ -234,7 +234,7 @@ export const Header3 = () => {
                       }
                     >
                       <li>
-                        <Link to="/instructor-dashboard">e-Deeskshaam</Link>
+                        <Link to="/instructor-dashboard">ε-Deekshaam</Link>
                       </li>
                       <li>
                         <Link to="/instructor-dashboard">MANUU</Link>
