@@ -7,6 +7,7 @@ import Carousel from '../carousel/Carousel';
 import { Quote } from "../imagepath";
 import { mission } from "../imagepath";
 import { vision } from "../imagepath";
+import { about } from "../imagepath";
 import "./home.css";
 import {
   Award01,
@@ -16,7 +17,6 @@ import {
   Blog22,
   Blog23,
   Blog24,
-  Career,
   Certification,
   CheckRound1,
   CheckRound2,
@@ -220,7 +220,7 @@ export const Home3 = () => {
                 <div className="master-three-left">
                   <img
                     className="img-fluid"
-                    src={Career}
+                    src={about}
                     alt="image-banner"
                     title="image-banner"
                   />
