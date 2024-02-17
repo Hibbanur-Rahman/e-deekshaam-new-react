@@ -69,7 +69,7 @@ export const TopCategories2 = () => {
               </div>
               <div className="col-12 border border-0 p-2">
                 <p className="m-0 p-0 text-center">15+</p>
-                <p className="m-0 p-0 text-center">Prehab professionals</p>
+                <p className="m-0 p-0 text-center">Rehab professionals</p>
               </div>
             </div>
            
@@ -100,7 +100,7 @@ export const TopCategories2 = () => {
               </div>
               <div className="col-12 border border-0 p-2">
                 <p className="m-0 p-0 text-center">6+</p>
-                <p className="m-0 p-0 text-center">Prehab professionals</p>
+                <p className="m-0 p-0 text-center">Rehab professionals</p>
               </div>
             </div>
            
@@ -131,7 +131,7 @@ export const TopCategories2 = () => {
               </div>
               <div className="col-12 border border-0 p-2">
                 <p className="m-0 p-0 text-center">3+</p>
-                <p className="m-0 p-0 text-center">Prehab professionals</p>
+                <p className="m-0 p-0 text-center">Rehab professionals</p>
               </div>
             </div>
            
@@ -162,7 +162,7 @@ export const TopCategories2 = () => {
               </div>
               <div className="col-12 border border-0 p-2">
                 <p className="m-0 p-0 text-center">3+</p>
-                <p className="m-0 p-0 text-center">Prehab professionals</p>
+                <p className="m-0 p-0 text-center">Rehab professionals</p>
               </div>
             </div>
            
@@ -195,7 +195,7 @@ export const TopCategories2 = () => {
               </div>
               <div className="col-12 border border-0 p-2">
                 <p className="m-0 p-0 text-center">9+</p>
-                <p className="m-0 p-0 text-center">Prehab professionals</p>
+                <p className="m-0 p-0 text-center">Rehab professionals</p>
               </div>
             </div>
            
@@ -226,7 +226,7 @@ export const TopCategories2 = () => {
               </div>
               <div className="col-12 border border-0 p-2">
                 <p className="m-0 p-0 text-center">8+</p>
-                <p className="m-0 p-0 text-center">Prehab professionals</p>
+                <p className="m-0 p-0 text-center">Rehab professionals</p>
               </div>
             </div>
            
@@ -257,7 +257,7 @@ export const TopCategories2 = () => {
               </div>
               <div className="col-12 border border-0 p-2">
                 <p className="m-0 p-0 text-center">15+</p>
-                <p className="m-0 p-0 text-center">Prehab professionals</p>
+                <p className="m-0 p-0 text-center">Rehab professionals</p>
               </div>
             </div>
            
@@ -288,7 +288,7 @@ export const TopCategories2 = () => {
               </div>
               <div className="col-12 border border-0 p-2">
                 <p className="m-0 p-0 text-center">10+</p>
-                <p className="m-0 p-0 text-center">Prehab professionals</p>
+                <p className="m-0 p-0 text-center">Rehab professionals</p>
               </div>
             </div>
            
@@ -319,7 +319,7 @@ export const TopCategories2 = () => {
               </div>
               <div className="col-12 border border-0 p-2">
                 <p className="m-0 p-0 text-center">3+</p>
-                <p className="m-0 p-0 text-center">Prehab professionals</p>
+                <p className="m-0 p-0 text-center">Rehab professionals</p>
               </div>
             </div>
            
