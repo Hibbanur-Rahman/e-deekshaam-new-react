@@ -119,7 +119,7 @@ export const Footer3 = () => {
                 {/* Footer Widget */}
                 <div className="footer-widget-three footer-menu-three">
                   <h6 className="footer-three-title">Contact us</h6>
-                  <p className="text-light">               Department of Computer Science & Information Technology , School Of Technology, Maulana Azad National Urdu University, Gachibowli, Hyderabad,Telangana, India-500032
+                  <p className="text-light">               Department of Computer Science & Information Technology , School of Technology, Maulana Azad National Urdu University, Gachibowli, Hyderabad,Telangana, India-500032
                   </p>
                   <div className="row m-0 p-0">
 
