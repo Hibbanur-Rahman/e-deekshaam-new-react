@@ -4041,7 +4041,7 @@ html.menu-opened body {
 .knowledge-sec .featured-img-1 {
     width: 100%;
     float: left;
-    background-image: url(../img/joing-us.png);
+    /* background-image: url(../img/joing-us.png); */
     height: 777px;
     background-size: cover;
     background-position: center center;
@@ -4413,7 +4413,7 @@ html.menu-opened body {
 	display: block;
     font-size: 15px;
     font-weight: 500;
-	color: #585858;
+	color: #fff;
 }
 .header-three .main-nav li a:hover {
 	color: #7B1FFE;
@@ -4950,7 +4950,7 @@ html.menu-opened body {
 }
 .home-three-slide {
     position: relative;
-    background-image: url(../img/slider/home-three-banner.jpg);
+    /* background-image: url(../img/slider/home-three-banner.jpg); */
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -13498,7 +13498,7 @@ input[type=password]::-ms-clear
 .page-banner.instructor-bg-blk {
     padding: 32px 0;
     text-align: center;
-    background: url(../img/instructor/instructor-bg-banner.png) #1565C0;
+    /* background: url(../img/instructor/instructor-bg-banner.png) #1565C0; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -13747,7 +13747,7 @@ input[type=password]::-ms-clear
 .page-banner.student-bg-blk {
     padding: 14px 0;
     text-align: center;
-    background: url(../img/students/student-bg-banner.png) #FFB54A;
+    /* background: url(../img/students/student-bg-banner.png) #FFB54A; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -20048,14 +20048,14 @@ input[type=password]::-ms-clear
 		list-style: none;
 	}
 	.main-nav ul {
-		background-color: #f38681;
+		background-color: #7b1ffe;
 		display: none;
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
 	}
 	.main-nav > li {
-		border-bottom: 1px solid #f38681;
+		border-bottom: 1px solid #fff;
 		margin-left: 0;
 	}
 	.main-nav li + li {
@@ -20118,7 +20118,7 @@ input[type=password]::-ms-clear
 		z-index: 1060;
 		transform: translateX(-260px);
 		transition: all 0.4s;
-		background-color: #f66962;
+		background-color: #7B1FFE;
 	}
 	.menu-header {
 		display: -webkit-box;
@@ -21809,7 +21809,7 @@ input[type=password]::-ms-clear
 		padding: 15px;
 	}
 	.bar-icon span {
-		background-color: #f66962;
+		background-color: #7B1FFE;
 	}
 	.header.header-navbar-rht {
 		display: none;
