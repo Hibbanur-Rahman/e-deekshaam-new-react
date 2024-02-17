@@ -246,7 +246,7 @@ export const Header3 = () => {
                     </ul>
                   </li>
                   <li className="has-submenu">
-                    <Link to="/students-list">
+                    <Link to="#">
                       Events{" "}
                       <i
                         className="fas fa-chevron-down"
