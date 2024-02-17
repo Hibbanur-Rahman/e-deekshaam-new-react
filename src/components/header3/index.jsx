@@ -261,7 +261,7 @@ export const Header3 = () => {
                       }
                     >
                       <li>
-                        <Link to="/setting-edit-profile">Workshops</Link>
+                        <Link to="/workshop">Workshops</Link>
                       </li>
  
                       <li>

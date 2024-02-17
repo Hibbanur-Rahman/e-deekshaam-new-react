@@ -1,7 +1,7 @@
 import React from "react";
-import { Header3 } from "../header3/index";
+
 import "./importantLinks.css";
-import { Footer3 } from "../footer3/index";
+
 import { NIEPID_Logo } from "../imagepath";
 import { niepmd_logo } from "../imagepath";
 import { ministry } from "../imagepath";
@@ -14,7 +14,6 @@ const ContactUs = () => {
     return (
         <>
             <div className="main-wrapper">
-                <Header3 />
                 <div className="page-banner mb-4">
                     <div className="container">
                         <div className="row">
@@ -401,7 +400,6 @@ const ContactUs = () => {
                         </div>
                     </div>
                 </div>
-                <Footer3 />
 
             </div>
         </>

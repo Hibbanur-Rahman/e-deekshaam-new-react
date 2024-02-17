@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
-import { Footer3 } from "../footer3";
-import { Header3 } from "../header3";
+
+
 
 import Carousel from '../carousel/Carousel';
 import { Quote } from "../imagepath";
@@ -64,7 +64,7 @@ export const Home3 = () => {
 
   return (
     <>
-      <Header3 />
+
       {/* Home Banner */}
       <Carousel />
       {/* Home Banner */}
@@ -357,7 +357,7 @@ export const Home3 = () => {
       {/* Favorite Course */}
 
       {/* Footer */}
-      <Footer3 />
+
       {/* Footer */}
     </>
   );
