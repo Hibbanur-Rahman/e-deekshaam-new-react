@@ -1,8 +1,5 @@
 import React, { useEffect } from "react";
 
-
-
-
 import Carousel from '../carousel/Carousel';
 import { Quote } from "../imagepath";
 import { mission } from "../imagepath";
@@ -30,7 +27,7 @@ import CountUp from "react-countup";
 
 
 
-export const Home3 = () => {
+export const Home = () => {
 
   useEffect(() => {
     document.body.className = "home-three";

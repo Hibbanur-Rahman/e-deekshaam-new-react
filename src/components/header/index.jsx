@@ -11,7 +11,7 @@ import meityFullLogo from './headerImage/meity.png';
 import meityPlain from './headerImage/ashoka-chakra.png';
 
 
-export const Header3 = () => {
+export const Header = () => {
   // change header background on scroll
   const [navbar, setNavbar] = useState(false);
 

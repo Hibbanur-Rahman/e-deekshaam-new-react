@@ -3,7 +3,7 @@ import { Mail, Phone } from "react-feather";
 import { Link } from "react-router-dom";
 import logoPng from './image/edeekshaam-footer-logo.png';
 
-export const Footer3 = () => {
+export const Footer = () => {
   const [isAboutSubMenuOpen, setAboutSubMenuOpen] = useState(false);
   const [isEventSubMenuOpen, setEventSubMenuOpen] = useState(false);
   const [mobileSubMenu3, setMobileSubMenu3] = useState(false);
