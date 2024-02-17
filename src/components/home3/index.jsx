@@ -92,7 +92,7 @@ export const Home3 = () => {
                             +
                           </span>
                         </h4>
-                        <p>states</p>
+                        <p>States</p>
                       </div>
                     </div>
                   </div>

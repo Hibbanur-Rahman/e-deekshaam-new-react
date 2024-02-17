@@ -29,7 +29,8 @@ const ContactUs = () => {
               <div className="support-wrap">
                 <img className="" style={{width:"20px"}} src={location} />
                 <h4 className="mt-3">Address</h4>
-                <p className="lh-lg">Dept of CS&IT, School Of Technology, Maulana Azad National Urdu University, Gachibowli, Hyderabad, India-500032</p>
+                <p className="lh-lg"> Department of Computer Science & Information Technology , School Of Technology, Maulana Azad National Urdu University, Gachibowli, Hyderabad,Telangana, India-500032
+                  </p>
               </div>
               <div className="support-wrap mt-3">
                 <img className="" style={{width:"20px"}} src={email} />
