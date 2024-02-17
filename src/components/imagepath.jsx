@@ -490,6 +490,23 @@ export { default as mission } from "../assets/img/our-images/mission.svg"
 export { default as vision } from "../assets/img/our-images/vision.svg"
 export { default as about } from "../assets/img/our-images/about.jpg"
 export { default as process } from "../assets/img/our-images/process.svg"
+export { default as NIEPID_Logo } from "../assets/img/our-images/NIEPID_Logo.png"
+export { default as niepmd_logo } from "../assets/img/our-images/niepmd-logo.png"
+export { default as depd } from "../assets/img/our-images/depd.png"
+export { default as NIMHNS } from "../assets/img/our-images/NIMHNS.jpg"
+export { default as dsje } from "../assets/img/our-images/msje.jpg"
+export { default as meity } from "../assets/img/our-images/meity.png"
+export { default as tnt } from "../assets/img/our-images/tnt.png"
+export { default as rci } from "../assets/img/our-images/rci.png"
+export { default as mhfw} from "../assets/img/our-images/mhfw.jpg"
+
+
+
+
+
+
+
+
 
 
 

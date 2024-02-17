@@ -280,10 +280,10 @@ export const Header3 = () => {
                     <Link to="/">Collaboration </Link>
                   </li>
                   <li>
-                    <Link to="/">Important-Links </Link>
+                    <Link to="/important-links">Important links </Link>
                   </li>
                   <li>
-                    <Link to="/contact-us">Contact US </Link>
+                    <Link to="/contact-us">Contact us </Link>
                   </li>
                   <li className="login-link">
                     <Link to="/login">Login / Signup</Link>
