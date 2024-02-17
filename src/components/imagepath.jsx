@@ -488,7 +488,7 @@ export { default as BlogBanner } from "../assets/img/blog-banner.jpg"
 
 export { default as mission } from "../assets/img/our-images/mission.svg"
 export { default as vision } from "../assets/img/our-images/vision.svg"
-export { default as about } from "../assets/img/our-images/about.jpg"
+export { default as about } from "../assets/img/our-images/about.svg"
 export { default as process } from "../assets/img/our-images/process.svg"
 export { default as NIEPID_Logo } from "../assets/img/our-images/NIEPID_Logo.png"
 export { default as niepmd_logo } from "../assets/img/our-images/niepmd-logo.png"
