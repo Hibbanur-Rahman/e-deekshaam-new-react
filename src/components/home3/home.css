@@ -1,3 +1,6 @@
+.quote{
+    width: 40px !important;
+}
 .customCard{
     height: fit-content !important;
 }
@@ -9,6 +12,9 @@
 }
 .mission-vision img{
     max-width: 40px !important;
+}
+.get-certified p{
+    text-align: justify;
 }
 .certified-group:hover{
     border: 0.5px solid  #7B1FFE;
