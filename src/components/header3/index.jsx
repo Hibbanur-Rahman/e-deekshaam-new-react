@@ -265,7 +265,7 @@ export const Header3 = () => {
                       </li>
  
                       <li>
-                        <Link to="/setting-student-social-profile">
+                        <Link to="/other-events">
                           Other events
                         </Link>
                       </li>

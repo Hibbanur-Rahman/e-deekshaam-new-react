@@ -48,7 +48,7 @@ const ContactUs = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="">
-                <img src={env1} alt="" />
+                <img className="img-fluid" src={env1} alt="" />
               </div>
             </div>
             <div className="col-lg-6 col-md-8 mx-auto mt-5 pt-5 mb-3 mb-lg-0">
