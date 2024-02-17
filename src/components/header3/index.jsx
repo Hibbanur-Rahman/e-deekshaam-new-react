@@ -278,7 +278,7 @@ export const Header3 = () => {
                     <Link to="/">Important-Links </Link>
                   </li>
                   <li>
-                    <Link to="/">Contact US </Link>
+                    <Link to="/contact-us">Contact US </Link>
                   </li>
                   <li className="login-link">
                     <Link to="/login">Login / Signup</Link>
