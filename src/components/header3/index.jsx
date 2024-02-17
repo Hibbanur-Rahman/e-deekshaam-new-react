@@ -234,10 +234,10 @@ export const Header3 = () => {
                       }
                     >
                       <li>
-                        <Link to="/instructor-dashboard">ε-Deekshaam</Link>
+                        <Link to="/about-edeeksham">ε-Deekshaam</Link>
                       </li>
                       <li>
-                        <Link to="/instructor-dashboard">MANUU</Link>
+                        <Link to="/about-manuu">MANUU</Link>
                       </li>
                       <li>
                         <Link to="/instructor-course">Our team</Link>

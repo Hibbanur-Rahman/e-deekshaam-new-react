@@ -108,7 +108,7 @@ export const Footer3 = () => {
                       <Link to="/instructor-list">Important links</Link>
                     </li>
                     <li>
-                      <Link to="/deposit-instructor-dashboard">Contact Us</Link>
+                      <Link to="/contact-us">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
