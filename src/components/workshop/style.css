@@ -1,0 +1,86 @@
+.workshop-top-banner {
+    margin-top: -50px;
+  }
+  
+  .workshop-top-banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .workshop {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .workshop .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 20px;
+  }
+  
+  .workshop .content-container {
+    width: 50%;
+  }
+  
+  p.workshop-date {
+    color: #777;
+  }
+  
+  h1.workshop-heading {
+    margin-bottom: 20px;
+  }
+  
+  p.workshop-content {
+    text-align: justify;
+  }
+  
+  .workshop .video-container video {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 1024px) {
+    .workshop h1.workshop-heading {
+      font-size: 25px;
+    }
+  }
+  
+  @media (max-width: 786px) {
+    .workshop-container {
+      padding: 0 !important;
+    }
+  
+    .workshop .content-container {
+      padding: 0;
+    }
+  
+    .workshop-top-banner img {
+      margin-top: 50px;
+    }
+  
+    .workshop {
+      display: flex;
+      justify-content: unset;
+      flex-direction: column;
+    }
+  
+    .workshop .video-container {
+      width: 100%;
+      order: 2;
+    }
+  
+    .workshop .content-container {
+      width: 100%;
+      order: 1;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .workshop-container {
+      padding: 0 !important;
+    }
+  }
