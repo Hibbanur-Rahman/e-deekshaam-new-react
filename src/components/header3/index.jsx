@@ -131,7 +131,10 @@ export const Header3 = () => {
                     sx={{
                       "@media (max-width: 768px)": {
                         fontSize: "14px",
+
                       },
+                      fontFamily:'arial',
+                      fontWeight:'bold',
                     }}
                   >
                     Adaptive Assistive System for Children with Moderate
@@ -239,12 +242,7 @@ export const Header3 = () => {
                       <li>
                         <Link to="/about-manuu">MANUU</Link>
                       </li>
-                      <li>
-                        <Link to="/instructor-course">Our team</Link>
-                      </li>
-                      <li>
-                        <Link to="/instructor-reviews">Experts</Link>
-                      </li>
+     
                     </ul>
                   </li>
                   <li className="has-submenu">
@@ -265,9 +263,7 @@ export const Header3 = () => {
                       <li>
                         <Link to="/setting-edit-profile">Workshops</Link>
                       </li>
-                      <li>
-                        <Link to="/setting-student-security">Trainings</Link>
-                      </li>
+ 
                       <li>
                         <Link to="/setting-student-social-profile">
                           Other events

@@ -92,7 +92,7 @@ export const Home3 = () => {
                             +
                           </span>
                         </h4>
-                        <p>states</p>
+                        <p>States</p>
                       </div>
                     </div>
                   </div>
@@ -170,7 +170,7 @@ export const Home3 = () => {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-xl-6 col-lg-6 col-md-12 d-flex align-items-center" data-aos="fade-right">
+            <div className="col-xl-6 col-lg-6 col-md-12 d-flex justify-content-center align-items-center" data-aos="fade-right">
               <div className="master-three-images">
                 <div className="master-three-left">
                   <img
@@ -190,7 +190,7 @@ export const Home3 = () => {
               <h5 className="text-blue">Inclusive Education is our first priority</h5>
 
               <div className="py-4">
-                <img className="quote img-fluid home3Slide" alt="" src={Quote} />
+                <img className="quote home3Slide" alt="" src={Quote} />
               </div>
               <div className="home-three-content" data-aos="fade-up">
                 <p>
@@ -313,7 +313,7 @@ export const Home3 = () => {
                 className="col-xl-6 col-lg-6 col-md-6 col-12 d-flex justify-content-center"
                 data-aos="fade-right"
               >
-                <div className="award-three-images-two">
+                <div className="award-three-images-two master-three-left">
                   <img
                     className="img-fluid"
                     src={process}

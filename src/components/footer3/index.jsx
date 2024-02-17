@@ -61,7 +61,7 @@ export const Footer3 = () => {
                       Adaptive Assistive System for Children with Moderate Intellectual Disability{" "}
                     </p>
                   </div>
-                
+
                 </div>
                 {/* Footer Widget */}
               </div>
@@ -119,7 +119,7 @@ export const Footer3 = () => {
                 {/* Footer Widget */}
                 <div className="footer-widget-three footer-menu-three">
                   <h6 className="footer-three-title">Contact us</h6>
-                  <p className="text-light">                Dept of CS & IT, School Of Technology, Maulana Azad National Urdu University, Gachibowli, Hyderabad, India-500032
+                  <p className="text-light">               Department of Computer Science & Information Technology , School Of Technology, Maulana Azad National Urdu University, Gachibowli, Hyderabad,Telangana, India-500032
                   </p>
                   <div className="row m-0 p-0">
 
@@ -151,16 +151,13 @@ export const Footer3 = () => {
           <div className="copyright-three">
             <div className="row">
               <div className="col-md-12">
-                
+
                 <div className="privacy-policy-three">
                   <ul>
                     <li>
-                      <Link to="/#">Terms & Condition</Link>
+                      <Link to="/#">Disclaimer</Link>
                     </li>
-                    <li>
-                      <Link to="/#">Privacy Policy</Link>
-                    </li>
-                   
+
                   </ul>
                 </div>
                 <div className="copyright-text-three">
