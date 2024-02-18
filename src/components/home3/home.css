@@ -1,26 +1,35 @@
-.customCard{
+.customCard {
     height: fit-content !important;
 }
-.mission-vision{
-    border: 0.5px solid  #7B1FFE;
+
+.mission-vision {
+    border: 0.5px solid #7B1FFE;
     width: fit-content;
     border-radius: 12px;
     padding: 8px;
 }
-.mission-vision img{
+
+.mission-vision img {
     max-width: 40px !important;
 }
-.get-certified p{
+
+.get-certified p {
     text-align: justify;
 }
-.certified-group:hover{
-    border: 0.5px solid  #7B1FFE;
+
+.certified-group:hover {
+    border: 0.5px solid #7B1FFE;
 
 }
 
-.text-violet{
+.text-violet {
     color: #7B1FFE;
 }
-.award-list span{
+
+.learn-anything p {
+    text-align: justify;
+}
+
+.award-list span {
     width: 20px;
 }
