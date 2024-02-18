@@ -496,9 +496,11 @@ export { default as depd } from "../assets/img/our-images/depd.png"
 export { default as NIMHNS } from "../assets/img/our-images/NIMHNS.jpg"
 export { default as dsje } from "../assets/img/our-images/msje.jpg"
 export { default as meity } from "../assets/img/our-images/meity.png"
-export { default as tnt } from "../assets/img/our-images/tnt.png"
+export { default as tnt } from "../assets/img/our-images/tnt.jpg"
 export { default as rci } from "../assets/img/our-images/rci.png"
 export { default as mhfw} from "../assets/img/our-images/mhfw.jpg"
+export { default as ministry} from "../assets/img/our-images/ministry.svg"
+
 
 
 
