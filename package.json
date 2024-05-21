@@ -1,9 +1,8 @@
 {
-  
-  "name": "edeekshaam_website3.0",
+  "name": "e-deekshaam-new",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://manuucsit.github.io/edeekshaam_website3.0/",
+  "homepage": "https://hibbanur-rahman.github.io/e-deekshaam-new-react/",
   "dependencies": {
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.15.10",
